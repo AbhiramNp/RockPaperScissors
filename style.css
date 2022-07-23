@@ -9,16 +9,13 @@ body{
     background-color: grey;
 }
 .container{
-    border: 1px solid black;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
     background-color: black;
-
 }
-.outcome{
 
-    border: 1px solid red;
+.outcome{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,14 +23,11 @@ body{
     font-size: 20px;
     background-color: #062f4f;
     color: white;
-
 }
+
 .finalScore{
-    border: 1px solid blue;
     display: flex;
     justify-content: center;
-
-
 }
 
 button{
@@ -45,28 +39,15 @@ button{
     cursor: pointer;
     border-radius: 12px;
     margin: 3px; 
-    font-family: 'Roboto Slab', serif;
-
-    
+    font-family: 'Roboto Slab', serif;  
 }
 
-/* #rock{
-    background-color: red;
-}
-#paper{
-    background-color: yellowgreen;
-}
-#scissors{
-    background-color: aqua;
-} */
 img{
     height: 30px;
     width: 60px;
     mix-blend-mode: multiply;
-   
 }
 
 .finalScore{
     font-family: 'Kanit', sans-serif;
-
 }

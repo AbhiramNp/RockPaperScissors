@@ -116,6 +116,7 @@ const rockButton = document.getElementById('rock');
 const paperButton = document.getElementById('paper');
 const scissorButton = document.getElementById('scissors');
 const outcome = document.querySelector('.outcome')
+const restartButton = document.querySelector('.last-btn');
 
 
    rockButton.addEventListener('click',() => {
@@ -140,3 +141,6 @@ const outcome = document.querySelector('.outcome')
     checkWinner(playerScore,computerScore)
     })
 
+    restartButton.addEventListener('click',() =>{
+        window.location.reload();
+    })
